@@ -1,15 +1,55 @@
-[
-  {
-    "id": "cipp_zpe",
-    "nome": "Complexo Industrial e Portuário do Pecém (CIPP) - ZPE",
-    "grupo": "Áreas Especiais e Infraestrutura",
-    "fonte": "ZPE Ceará",
-    "tipo": "geojson",
-    "url": "https://sistema-ce.github.io/webgis-bases/bases/cipp_zpe.geojson",
-    "campoNome": "Name",
-    "ativo": true,
-    "visivelInicialmente": false,
-    "cor": "#d84315",
-    "observacao": "Base vetorial do Complexo Industrial e Portuário do Pecém."
-  }
-]
+{
+  "catalogo": {
+    "nome": "WEBGIS GEO",
+    "descricao": "Catálogo de Bases Geográficas do WEBGIS GEO",
+    "versao": "1.0.0",
+    "ultimaAtualizacao": "2026-07-10",
+    "responsavel": "WEBGIS GEO",
+    "site": "",
+    "contato": ""
+  },
+
+  "bases": [
+    {
+      "id": "cipp_zpe",
+
+      "nome": "Complexo Industrial e Portuário do Pecém (CIPP) - ZPE",
+
+      "grupo": "Áreas Especiais",
+
+      "fonte": "ZPE Ceará",
+
+      "tipo": "geojson",
+
+      "url": "https://sistema-ce.github.io/webgis-bases/bases/cipp_zpe.geojson",
+
+      "campoNome": "Name",
+
+      "campoCodigo": "",
+
+      "ativo": true,
+
+      "analisar": true,
+
+      "visualizar": true,
+
+      "visivelInicialmente": false,
+
+      "ordem": 1,
+
+      "cor": "#d84315",
+
+      "opacidade": 0.20,
+
+      "descricao": "Complexo Industrial e Portuário do Pecém",
+
+      "versaoBase": "1.0",
+
+      "dataAtualizacao": "2026-07-10",
+
+      "licenca": "",
+
+      "observacoes": ""
+    }
+  ]
+}
