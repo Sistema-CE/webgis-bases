@@ -2,7 +2,7 @@
   "catalogo": {
     "nome": "WEBGIS GEO",
     "descricao": "Catálogo de Bases Geográficas do WEBGIS GEO",
-    "versao": "1.2.1",
+    "versao": "1.3.0",
     "ultimaAtualizacao": "2026-07-11",
     "responsavel": "WEBGIS GEO",
     "site": "",
@@ -75,6 +75,28 @@
       "versaoBase": "2026.03",
       "dataAtualizacao": "2026-03",
       "observacoes": "Base filtrada do CNUC para registros cujo campo UF contém CEARÁ."
+    },
+    {
+      "id": "mata_atlantica_ibge_2011_ceara",
+      "nome": "Mata Atlântica — IBGE 2011",
+      "grupo": "Vegetação e Biomas",
+      "fonte": "IBGE",
+      "tipo": "geojson",
+      "url": "https://sistema-ce.github.io/webgis-bases/bases/mata_atlantica_ibge_2011_ceara.geojson",
+      "campoNome": "NOME",
+      "campoCodigo": "OBJECTID",
+      "papel": "generico",
+      "ativo": true,
+      "analisar": true,
+      "visualizar": true,
+      "visivelInicialmente": false,
+      "ordem": 4,
+      "cor": "#558b2f",
+      "opacidade": 0.16,
+      "descricao": "Base vetorial da Mata Atlântica conforme IBGE 2011.",
+      "versaoBase": "2011",
+      "dataAtualizacao": "2011",
+      "observacoes": "Base utilizada para identificar interseção com áreas de Mata Atlântica."
     }
   ]
 }
