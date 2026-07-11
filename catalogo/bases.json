@@ -2,7 +2,7 @@
   "catalogo": {
     "nome": "WEBGIS GEO",
     "descricao": "Catálogo de Bases Geográficas do WEBGIS GEO",
-    "versao": "1.3.0",
+    "versao": "1.4.0",
     "ultimaAtualizacao": "2026-07-11",
     "responsavel": "WEBGIS GEO",
     "site": "",
@@ -29,7 +29,6 @@
       "descricao": "Complexo Industrial e Portuário do Pecém",
       "versaoBase": "1.0",
       "dataAtualizacao": "2026-07-10",
-      "licenca": "",
       "observacoes": ""
     },
     {
@@ -42,6 +41,9 @@
       "campoNome": "NM_MUN",
       "campoCodigo": "CD_MUN",
       "papel": "municipios",
+      "dashboard": true,
+      "analiseEspecial": true,
+      "relatorioEspecial": true,
       "ativo": true,
       "analisar": true,
       "visualizar": true,
@@ -97,6 +99,38 @@
       "versaoBase": "2011",
       "dataAtualizacao": "2011",
       "observacoes": "Base utilizada para identificar interseção com áreas de Mata Atlântica."
+    },
+    {
+      "id": "anm_ceara",
+      "nome": "Processos Minerários — ANM Ceará",
+      "grupo": "Mineração",
+      "fonte": "Agência Nacional de Mineração — ANM",
+      "tipo": "geojson",
+      "url": "https://sistema-ce.github.io/webgis-bases/bases/anm_ceara.geojson",
+      "campoNome": "DSProcesso",
+      "campoCodigo": "DSProcesso",
+      "papel": "anm",
+      "dashboard": true,
+      "analiseEspecial": true,
+      "relatorioEspecial": true,
+      "campos": {
+        "processo": "DSProcesso",
+        "area": "AREA_HA",
+        "fase": "FASE",
+        "nome": "NOME",
+        "substancia": "SUBS"
+      },
+      "ativo": true,
+      "analisar": true,
+      "visualizar": true,
+      "visivelInicialmente": false,
+      "ordem": 5,
+      "cor": "#b45309",
+      "opacidade": 0.12,
+      "descricao": "Poligonais dos processos minerários incidentes no estado do Ceará.",
+      "versaoBase": "1.0",
+      "dataAtualizacao": "2026-07-11",
+      "observacoes": "A análise especial apresenta processo, titular, fase, substância, área do processo e sobreposição com a Área de Interesse."
     }
   ]
 }
