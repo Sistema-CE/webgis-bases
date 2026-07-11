@@ -2,7 +2,7 @@
   "catalogo": {
     "nome": "WEBGIS GEO",
     "descricao": "Catálogo de Bases Geográficas do WEBGIS GEO",
-    "versao": "1.2.0",
+    "versao": "1.2.1",
     "ultimaAtualizacao": "2026-07-11",
     "responsavel": "WEBGIS GEO",
     "site": "",
@@ -60,7 +60,7 @@
       "grupo": "Unidades de Conservação",
       "fonte": "MMA / CNUC",
       "tipo": "geojson",
-      "url": "https://sistema-ce.github.io/webgis-bases/bases/cnuc_ceara_2026_03_contem_ceara_otimizado.geojson",
+      "url": "https://sistema-ce.github.io/webgis-bases/bases/cnuc_ceara_2026_03.geojson",
       "campoNome": "nome_uc",
       "campoCodigo": "",
       "papel": "generico",
