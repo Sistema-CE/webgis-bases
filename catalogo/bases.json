@@ -8,70 +8,50 @@
     "site": "",
     "contato": ""
   },
-
   "bases": [
     {
       "id": "cipp_zpe",
-
       "nome": "Complexo Industrial e Portuário do Pecém (CIPP) - ZPE",
-
       "grupo": "Áreas Especiais",
-
       "fonte": "ZPE Ceará",
-
       "tipo": "geojson",
-
       "url": "https://sistema-ce.github.io/webgis-bases/bases/cipp_zpe.geojson",
-
       "campoNome": "Name",
-
       "campoCodigo": "",
-
       "ativo": true,
-
       "analisar": true,
-
       "visualizar": true,
-
       "visivelInicialmente": false,
-
       "ordem": 1,
-
       "cor": "#d84315",
-
-      "opacidade": 0.20,
-
+      "opacidade": 0.2,
       "descricao": "Complexo Industrial e Portuário do Pecém",
-
       "versaoBase": "1.0",
-
       "dataAtualizacao": "2026-07-10",
-
       "licenca": "",
-
       "observacoes": ""
+    },
+    {
+      "id": "municipios_ceara_2025",
+      "nome": "Limites Municipais do Ceará 2025",
+      "grupo": "Limites Administrativos",
+      "fonte": "IBGE",
+      "tipo": "geojson",
+      "url": "https://sistema-ce.github.io/webgis-bases/bases/municipios_ceara_2025.geojson",
+      "campoNome": "NM_MUN",
+      "campoCodigo": "CD_MUN",
+      "papel": "municipios",
+      "ativo": true,
+      "analisar": true,
+      "visualizar": true,
+      "visivelInicialmente": false,
+      "ordem": 2,
+      "cor": "#455a64",
+      "opacidade": 0.08,
+      "descricao": "Malha municipal oficial do Ceará referente ao ano de 2025.",
+      "versaoBase": "2025",
+      "dataAtualizacao": "2026-07-10",
+      "observacoes": "Base utilizada para identificar os municípios intersectados pela Área de Interesse."
     }
   ]
-},
-{
-  "id": "municipios_ceara_2025",
-  "nome": "Limites Municipais do Ceará 2025",
-  "grupo": "Limites Administrativos",
-  "fonte": "IBGE",
-  "tipo": "geojson",
-  "url": "https://sistema-ce.github.io/webgis-bases/bases/municipios_ceara_2025.geojson",
-  "campoNome": "NM_MUN",
-  "campoCodigo": "CD_MUN",
-  "papel": "municipios",
-  "ativo": true,
-  "analisar": true,
-  "visualizar": true,
-  "visivelInicialmente": false,
-  "ordem": 2,
-  "cor": "#455a64",
-  "opacidade": 0.08,
-  "descricao": "Malha municipal oficial do Ceará referente ao ano de 2025.",
-  "versaoBase": "2025",
-  "dataAtualizacao": "2026-07-10",
-  "observacoes": "Base utilizada para identificar os municípios intersectados pela Área de Interesse."
 }
