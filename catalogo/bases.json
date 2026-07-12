@@ -2,7 +2,7 @@
   "catalogo": {
     "nome": "WEBGIS GEO",
     "descricao": "Catálogo Oficial de Bases Geográficas do WEBGIS GEO",
-    "versao": "1.8.0",
+    "versao": "1.9.0",
     "ultimaAtualizacao": "2026-07-12",
     "responsavel": "WEBGIS GEO",
     "site": "",
@@ -116,7 +116,7 @@
       "preenchimento": false,
       "descricao": "Base linear de cursos d'água da BHO 2022 para identificação e cálculo preliminar de APP hídrica.",
       "versaoBase": "2022",
-      "observacoes": "Faixa preliminar padrão de 30 m, sujeita à validação conforme largura do leito regular e características do curso d'água.",
+      "observacoes": "A ferramenta gera faixa preliminar de 30 m, pesquisa cursos em até 150 m da AOI e mantém apenas a APP que incide dentro da área analisada.",
       "familia": "cursos_dagua"
     },
     {
