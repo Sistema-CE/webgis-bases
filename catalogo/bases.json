@@ -2,8 +2,8 @@
   "catalogo": {
     "nome": "WEBGIS GEO",
     "descricao": "Catálogo Oficial de Bases Geográficas do WEBGIS GEO",
-    "versao": "1.7.0",
-    "ultimaAtualizacao": "2026-07-11",
+    "versao": "1.8.0",
+    "ultimaAtualizacao": "2026-07-12",
     "responsavel": "WEBGIS GEO",
     "site": "",
     "contato": ""
@@ -34,7 +34,8 @@
       "descricao": "Malha municipal oficial do Ceará referente ao ano de 2025.",
       "versaoBase": "2025",
       "dataAtualizacao": "2026-07-10",
-      "observacoes": "Base utilizada para identificar os municípios intersectados pela Área de Interesse."
+      "observacoes": "Base utilizada para identificar os municípios intersectados pela Área de Interesse.",
+      "familia": "municipios"
     },
     {
       "id": "classificacao_territorial_ibge",
@@ -74,7 +75,8 @@
       "espessuraLinha": 1,
       "opacidadeContorno": 0.8,
       "opacidadePreenchimento": 0.08,
-      "descricao": "Setores censitários classificados como urbanos ou rurais, com informações territoriais e demográficas."
+      "descricao": "Setores censitários classificados como urbanos ou rurais, com informações territoriais e demográficas.",
+      "familia": "setores_censitarios"
     },
     {
       "id": "bho_2022_linear",
@@ -114,7 +116,8 @@
       "preenchimento": false,
       "descricao": "Base linear de cursos d'água da BHO 2022 para identificação e cálculo preliminar de APP hídrica.",
       "versaoBase": "2022",
-      "observacoes": "Faixa preliminar padrão de 30 m, sujeita à validação conforme largura do leito regular e características do curso d'água."
+      "observacoes": "Faixa preliminar padrão de 30 m, sujeita à validação conforme largura do leito regular e características do curso d'água.",
+      "familia": "cursos_dagua"
     },
     {
       "id": "cnuc_ceara",
@@ -137,7 +140,8 @@
       "opacidade": 0.18,
       "descricao": "Unidades de Conservação cujo campo UF contém CEARÁ, incluindo unidades interestaduais.",
       "versaoBase": "2026.03",
-      "dataAtualizacao": "2026-03"
+      "dataAtualizacao": "2026-03",
+      "familia": "unidades_conservacao"
     },
     {
       "id": "mata_atlantica",
@@ -159,7 +163,8 @@
       "cor": "#558B2F",
       "opacidade": 0.16,
       "descricao": "Base vetorial da Mata Atlântica conforme IBGE 2011.",
-      "versaoBase": "2011"
+      "versaoBase": "2011",
+      "familia": "biomas"
     },
     {
       "id": "anm_ceara",
@@ -190,7 +195,8 @@
       "ordem": 6,
       "cor": "#B45309",
       "opacidade": 0.12,
-      "descricao": "Poligonais dos processos minerários incidentes no estado do Ceará."
+      "descricao": "Poligonais dos processos minerários incidentes no estado do Ceará.",
+      "familia": "processos_minerarios"
     },
     {
       "id": "cipp_zpe",
@@ -211,7 +217,8 @@
       "ordem": 7,
       "cor": "#D84315",
       "opacidade": 0.2,
-      "descricao": "Complexo Industrial e Portuário do Pecém."
+      "descricao": "Complexo Industrial e Portuário do Pecém.",
+      "familia": "complexos_industriais"
     }
   ]
 }
